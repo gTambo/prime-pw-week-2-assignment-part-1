@@ -12,7 +12,7 @@ console.log('full name added');
 // 4 - Console log the value of `fullName`
 console.log('the value of fullName is', fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 7502938765;
+let luckyNumber = 279081234;
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -20,9 +20,9 @@ let sentence = 'My name is ' + fullName + ', and I think ' + luckyNumber + ' is 
 console.log( sentence);
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventerous = true;
-console.log("set boolean, adventerous");
+console.log("set boolean adventerous");
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
-let food = 'tacos, chips, and probably lots of other stuff.';
+let food = 'tacos, chips, braised meats, pasta, sandwiches, lots of things.';
 console.log("picked some favorites");
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 0;
@@ -30,7 +30,7 @@ console.log("I have no pets");
 console.log("my pets:", pets);
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 3;
-console.log("my friend has no pets");
+console.log("my friend has some pets");
 console.log("friend's pets:", friendsPets);
 // 11 - Add two pets to your `pets` variable
 pets += 2;
@@ -54,7 +54,7 @@ if (luckyNumber == 2 && adventerous === true) {
   console.log("Roll the dice!");
 }
 else {
-  console.log(":o");
+  console.log("no dice");
 }
 
 // 15 - Write a conditional that console logs "I can have more pets!"
@@ -86,7 +86,7 @@ if (pets >= friendsPets) {
 else {
   mostPets = friendsPets;
 }
-console.log("most pets: ", mostPets);
+console.log("Most pets: ", mostPets);
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
