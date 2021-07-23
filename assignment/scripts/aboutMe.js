@@ -89,6 +89,16 @@ else {
 console.log("Most pets: ", mostPets);
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
-
+switch(true){
+  case friendsPets >= pets:
+    mostPets = friendsPets;
+    break;
+  case friendsPets < pets:
+    mostPets = pets;
+    break;
+  default:
+    "let's talk about pets";
+}
+console.log(mostPets);
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 console.log(adventerous ? 'Adventures are great!' : 'How about we stay home?'); // reference: "https://www.javascripttutorial.net/javascript-ternary-operator/" and talking with Franck
