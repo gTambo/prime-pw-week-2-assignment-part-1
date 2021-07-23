@@ -89,7 +89,7 @@ else {
 console.log("Most pets: ", mostPets);
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
-switch(true){
+switch(true){  //Thanks Franck! also https://www.javascripttutorial.net/javascript-switch-case/
   case friendsPets >= pets:
     mostPets = friendsPets;
     break;
