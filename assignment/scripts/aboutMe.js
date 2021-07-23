@@ -19,7 +19,7 @@ let luckyNumber = 279081234;
 let sentence = 'My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!';
 console.log( sentence);
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventerous = true;
+let adventerous = false;
 console.log("set boolean adventerous");
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = 'tacos, chips, braised meats, pasta, sandwiches, lots of things.';
@@ -41,13 +41,13 @@ const allowedPets = 3;
 console.log("pets allowed at my apartment:", allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
-if (adventerous) {
+/* if (adventerous) {
   console.log("Adventures are great!");
 }
 else {
   console.log("How about we stay home?");
 }
-
+*/
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 if (luckyNumber == 2 && adventerous === true) {
@@ -79,7 +79,7 @@ else {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
-let mostPets = 0;
+ let mostPets = 0;
 if (pets >= friendsPets) {
   mostPets = pets;
 }
@@ -87,6 +87,9 @@ else {
   mostPets = friendsPets;
 }
 console.log("Most pets: ", mostPets);
+
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+let message = adventerous ? 'Adventures are great!' : 'How about we stay home?';
+console.log(message);
